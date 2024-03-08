@@ -1,0 +1,9 @@
+# Local hosted telegram-bot-api address
+host:
+
+# Telegram Bot's token
+token:
+
+# Whitelisted user ids
+whitelist:
+  - 682785614 # Byfron
