@@ -1,3 +1,5 @@
+github.com/LlamaNite/llamalog v0.2.1 h1:k9XugHmyQqJhCrogca808Jl2rrEKIWMtWyLKX+xX9Mg=
+github.com/LlamaNite/llamalog v0.2.1/go.mod h1:zopgmWk8utZPfZCPa/uvQkv99Lan3pRrw/9inbIYZeo=
 github.com/haashemi/tgo v1.1.0 h1:oU2oFjxtDkK6FsNTOnID2Au5CsPl6pj7xZTslfrZXmw=
 github.com/haashemi/tgo v1.1.0/go.mod h1:sXudynnpbEh1OhIft2aQc05GGosrHJh7EUx5LRAdQx4=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
