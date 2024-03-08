@@ -39,7 +39,7 @@ func main() {
 	}
 
 	mr := message.NewRouter()
-	mr.Handle(filters.Command("start", info.Username), OnDocument)
+	mr.Handle(filters.Command("start", info.Username), OnStart)
 	mr.Handle(filters.And(HasDocument(), filters.Whitelist(config.Whitelist...)), OnDocument)
 	bot.AddRouter(mr)
 
