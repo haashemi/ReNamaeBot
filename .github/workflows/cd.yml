@@ -21,6 +21,5 @@ jobs:
             cd ~/deployment/ReNamaeBot
             git pull
             go build -o ReNamaeBot .
-            strip ReNamaeBot
-            upx ReNamaeBot
+            mv ReNamaeBot old
             sudo systemctl restart renamae
