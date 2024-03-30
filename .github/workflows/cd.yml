@@ -1,0 +1,25 @@
+name: Go
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: VPS Deployment
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          port: 22
+          script: |
+            cd ~/deployment/ReNamaeBot
+            git pull
+            go build -o ReNamaeBot .
+            strip ReNamaeBot
+            upx ReNamaeBot
+            sudo systemctl restart renamae

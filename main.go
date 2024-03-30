@@ -65,7 +65,8 @@ func OnStart(ctx *message.Context) {
 
 🫡 I'm a private bot; thus I'll only respond to the whitelisted users. So, if you're @Byfron's friend, tell him to add you to the list of whitelisted users.
 
-[ @ReNamaeBot ]
+
+「 Reなまえ 」
 `,
 		LinkPreviewOptions: &tgo.LinkPreviewOptions{IsDisabled: true},
 	})
