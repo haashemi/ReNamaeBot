@@ -20,6 +20,6 @@ jobs:
           script: |
             cd ~/deployment/ReNamaeBot
             git pull
-            go build -o ReNamaeBot .
             mv ReNamaeBot old
+            go build -o ReNamaeBot .
             sudo systemctl restart renamae
